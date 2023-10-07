@@ -14,19 +14,23 @@
 
     <title>Frontend Mentor | NFT preview card component</title>
     <link rel="stylesheet" href="./css/main.css" />
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="nft-container">
-     <div class="image-and-overlay">
-      <div class="nft-container__image">
-        <img src="./images/image-equilibrium.jpg" alt="Equilibrium image" />
+      <div class="image-and-overlay">
+        <div class="nft-container__image">
+          <img src="./images/image-equilibrium.jpg" alt="Equilibrium image" />
+        </div>
+        <div class="overlay">
+          <img src="./images/icon-view.svg" alt="View Overlay" />
+        </div>
       </div>
-      <div class="overlay">
-        <img src="./images/icon-view.svg" alt="View Overlay">
-      </div>
-     </div>
       <div class="nft-container__details">
         <a href="#" class="nft-name">Equilibrium #3429</a>
         <p class="nft-description">
@@ -34,7 +38,7 @@
         </p>
         <div class="price-and-time-left">
           <p class="price">
-            <img src="./images/icon-ethereum.svg" />
+            <img src="./images/icon-ethereum.svg" alt="Etherium image" />
             0.041 ETH
           </p>
           <p class="time-left">
@@ -49,9 +53,17 @@
       </div>
     </div>
 
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="attribution">
+      <span>
+        Challenge by:
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener"
+          >Frontend Mentor</a
+        >.
+      </span>
+      <span>Coded by: <a href="https://www.github.com/the-pro7" target="_blank" rel="noopener"> Emmanuel Opoku-Ameyaw</a>.</span>
+    </div>
   </body>
 </html>
